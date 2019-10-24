@@ -1,0 +1,5 @@
+name: simple_gitlab_manager
+type: module
+description: The simple GitLab manager with functions deleting groups and projects.
+package: custom
+core: 8.x

@@ -1,0 +1,18 @@
+
+
+simple_gitlab_manager.groups:
+  path: '/simple-gitlab-manager/groups'
+  defaults:
+    _title: 'GitLab Groups List'
+    _form: 'Drupal\simple_gitlab_manager\Form\GroupsForm'
+  requirements:
+    _permission: 'access content'
+
+
+simple_gitlab_manager.projects:
+  path: '/simple-gitlab-manager/projects'
+  defaults:
+    _title: 'GitLab Projects List'
+    _form: 'Drupal\simple_gitlab_manager\Form\ProjectsForm'
+  requirements:
+    _permission: 'access content'
